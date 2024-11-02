@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Hanken Grotesk";
+}
+
+.top-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  margin: 10%;
+}
+
+.subcontainer-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 10px;
+  width: 90%;
+  height: 80%;
+  padding: 20px;
+  color: white;
+}
+.subcontainer-2 {
+  width: 90%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 5px 3px rgba(46, 43, 43, 0.155);
+}
+
+.reaction {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  background-color: hsl(0, 78%, 87%);
+  border-radius: 10px;
+}
+
+.memory {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  background-color: hsl(38, 76%, 87%);
+  border-radius: 10px;
+}
+.visual {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  background-color: hsl(166, 67%, 87%);
+  border-radius: 10px;
+}
+.verbal {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  background-color: hsl(233, 62%, 85%);
+  border-radius: 10px;
+}
+
+.inside-container {
+  margin: 5px;
+}
+button {
+  margin: 20px;
+  background-color: rgb(30, 30, 77);
+  border-radius: 20px;
+  color: white;
+  border: none;
+  width: 80%;
+  padding: 10px;
+}
+
+.one {
+  color: hsl(0, 100%, 67%);
+  margin: 10px;
+}
+.two {
+  color: hsl(39, 100%, 56%);
+  margin: 10px;
+}
+.three {
+  color: hsl(166, 100%, 37%);
+  margin: 10px;
+}
+.four {
+  color: hsl(234, 85%, 45%);
+  margin: 10px;
+}
+
+img {
+  margin: 5px;
+}
+.score-reaction {
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.score-memory {
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.score-visual {
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.score-verbal {
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.score-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  border-radius: 50%;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+.score {
+  font-size: 80px;
+}
+.outof {
+  margin: 10px;
+  padding: 10px;
+}
+.first-words {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+}
+.words {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.Performance {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width:600px) { 
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
